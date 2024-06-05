@@ -31,7 +31,7 @@ class File(models.Model):
 
 class AnswerQuestions(models.Model):
     question = models.CharField(max_length=100)
-    answer = models.CharField(max_length=100)
+    answer = models.TextField()
     user = models.ForeignKey(BotUser, on_delete=models.CASCADE, related_name='answers')
 
 
