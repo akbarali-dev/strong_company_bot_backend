@@ -79,8 +79,10 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "strong_company_bot_db",
-        "USER": "postgres",
-        "PASSWORD": "root123",
+        "USER": "bloguser",
+        # "USER": "postgres",
+        "PASSWORD": "@1-dasturchi@",
+        # "PASSWORD": "root123",
         "HOST": "127.0.0.1",
         "PORT": "5432",
     }
